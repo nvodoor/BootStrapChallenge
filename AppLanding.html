@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      
+    <style type="text/css">
+    
+        body {
+            position: relative;
+            text-align: center;
+        }
+        
+        label {
+            font-size: 120%;
+        }
+        
+        .jumbotron {
+            margin-top: 50px;
+            background-image: url("background.jpg");
+            background: cover;
+            height: 450px;
+            padding-bottom: 50px;
+        }
+        
+        .space {
+            padding: 30px;
+        }
+        
+        .card-img-top {
+            height: 220px;
+        }
+        
+        .footer {
+            height: 440px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        #bottom {
+            padding-top: 100px;
+        }
+        
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#MyAppNav" data-offset="0">
+      
+      <nav id="MyAppNav" class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+          <a class="navbar-brand" href="#">MyApp</a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#one">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#two">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#three">Download the App</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Email">
+              <input class="form-control mr-sm-2" type="text" placeholder="Password">
+              <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
+          </div>     
+      </nav>
+      
+      <div class="jumbotron jumbotron-fluid" id="one">
+        <h1 class="display-2">My Awesome App!</h1>
+        <p class="lead">This is why YOU should download this fantastic app!</p>
+        <hr class="my-4">
+        <div class="form-group">
+            <label for="emailInput">Want to know more? Join our mailing list!</label>
+            <form class="form-inline" style="margin-left:33%">
+                <span class="input-group-addon" id="basic-addon2">@</span>
+                <input type="text" class="form-control col-5" placeholder="Your Email"/>
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Sign Up</button>
+            </form>
+        </div>
+      </div>
+      
+      <div class="space"></div>
+      
+      <div class="container" id="two">
+        <h1 class="display-4">Why This App is Awesome</h1>
+        <p class="lead">Summary, once again, of your app's awesomeness</p>
+        <div class="space"></div>
+        <div class="card-deck">
+         <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="395H.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>  
+         </div>
+         <div class="col-sm-4">
+            <div class="card">
+            <img class="card-img-top" src="395H.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-4">
+           <div class="card">
+            <img class="card-img-top" src="395H.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+      
+      <div class="space"></div>
+      
+    <div class="footer bg-info" id="three">
+        <h1 class="display-3" id="bottom">Download the app!</h1>
+        <p class="lead">Please download this app that you can't download!</p>
+        <div class="text-center">
+            <a href="#"><img src="AppStore.svg"></a>
+        </div>
+    </div>
+ 
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
+    <script type="text/javascript">
+      $('body').scrollspy({ target: '#MyAppNav' })
+    </script>
+  </body>
+</html>
+
+<!-- Bootstrap Challenge. App Marketing Page. 
+NavBar. Fixed Top. ScrollSpy.
+Jumbotron. (with email signup form) (get image from UnSplash.com)
+Cards to display three items. 
+Download button at the bottom of the footer. 
+
+Work So Far:
+NavBar complete. ScrollSpy works as well. 
+Jumbotron complete.
+Cards complete.
+Download button complete.
+-->
